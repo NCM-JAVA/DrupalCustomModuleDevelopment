@@ -1,0 +1,7 @@
+csv_chart_display.form:
+  path: '/csv-to-chart'
+  defaults:
+    _form: '\Drupal\csv_chart_display\Form\CsvChartForm'
+    _title: 'Upload CSV and View Chart'
+  requirements:
+    _permission: 'access content'

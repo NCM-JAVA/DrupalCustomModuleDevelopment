@@ -1,0 +1,7 @@
+name: 'CSV Chart Display'
+type: module
+description: 'Upload any CSV file and render chart.'
+core_version_requirement: ^10 || ^9
+package: Custom
+dependencies:
+  - core:system

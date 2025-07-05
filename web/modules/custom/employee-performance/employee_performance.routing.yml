@@ -1,0 +1,7 @@
+employee_performance.report:
+  path: '/employee-performance'
+  defaults:
+    _controller: '\Drupal\employee_performance\Controller\PerformanceController::report'
+    _title: 'Employee Performance Chart'
+  requirements:
+    _permission: 'access content'

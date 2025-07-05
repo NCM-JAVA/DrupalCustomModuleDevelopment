@@ -1,0 +1,33 @@
+highcharts_lib:
+  version: VERSION
+  js:    
+    https://code.highcharts.com/highcharts.js: {type: external,minified: true}    
+    
+highcharts_lib.series_label:
+  version: VERSION
+  js:
+    https://code.highcharts.com/modules/series-label.js: {type: external,minified: true}
+    
+highcharts_lib.export:
+  version: VERSION
+  js:
+    https://code.highcharts.com/modules/exporting.js: {type: external,minified: true}
+
+highcharts_lib.export_data:
+  version: VERSION
+  js:
+    https://code.highcharts.com/modules/export-data.js: {type: external,minified: true}
+
+highcharts_lib.accessibility:
+  version: VERSION
+  js:
+    https://code.highcharts.com/modules/accessibility.js: {type: external,minified: true}
+        
+
+global:
+  version: VERSION
+  js:    
+    js/highcharts_intg.js: {}    
+  dependencies:
+    - core/jquery   
+    - highcharts_intg/highcharts_lib

@@ -1,0 +1,11 @@
+<?php
+
+function highcharts_intg_theme($existing,$type,$theme){
+    return [
+        'highcharts_block'=> [
+            'variables'=> ['fid'=>NULL]
+        ]
+    ];
+}
+
+

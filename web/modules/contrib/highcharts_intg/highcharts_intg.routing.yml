@@ -1,0 +1,10 @@
+highcharts_intg.getdata:
+  path: '/highcharts_intg/getdata/{fid}'
+  defaults:
+    _controller: '\Drupal\highcharts_intg\Controller\HighchartsController::chartdata'
+    _title: 'Get Chart Data'
+  requirements:
+    _permission: 'access content'    
+
+        
+    

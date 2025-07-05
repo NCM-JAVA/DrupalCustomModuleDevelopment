@@ -1,0 +1,5 @@
+name: 'Employee Performance'
+type: module
+description: 'Displays employee performance chart using Chart.js'
+core_version_requirement: ^10
+package: Custom

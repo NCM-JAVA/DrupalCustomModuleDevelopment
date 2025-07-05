@@ -1,0 +1,1 @@
+Refer video in the module page(https://www.drupal.org/project/highcharts_intg) for Configuration and use.
